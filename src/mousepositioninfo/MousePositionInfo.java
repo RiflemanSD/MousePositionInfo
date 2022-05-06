@@ -437,6 +437,8 @@ public class MousePositionInfo extends javax.swing.JFrame implements ActionListe
         this.colorLabel.setText(r + "," + g + "," + b);
         
         this.jPanel2.setBackground(new Color(r,g,b));
+        
+        //System.out.println(new Color(r,g,b));
     }
     
     public void updateTime() {
